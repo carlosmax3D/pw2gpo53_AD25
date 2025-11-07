@@ -19,7 +19,7 @@ export default function  PageUsuario()  {
         setInputValue(event.target.value);
     };
   useEffect(() => {
-    axios.get('http://localhost:8080/users/users')
+    axios.get('https://pw2gpo53-ad-25.vercel.app/api/users/users')
       .then(response => {
         setData(response.data.data);
       })
