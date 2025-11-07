@@ -13,6 +13,8 @@ const Options = (props) =>{
         <br/>
         <Link to="/test3">Hook mount/update/umount</Link>
         <br/>
+        <Link to="/usuarios">Listar Usuarios</Link>
+        <br/>
     </div>
 }
 
